@@ -1,0 +1,69 @@
+﻿VARIABLE;TIPO_DATO;DESCRIPCION
+NIVEL;Carácter;Nivel de la fase de Formulacion y Evaluacion (FyE)
+SECTOR;Carácter;Sector de la fase de FyE
+ENTIDAD;Carácter;Pliego o Entidad de la fase de FyE
+CODIGO_UNICO;Numérico;Codigo unico de la inversión (CUI en el marco del Invierte)
+CODIGO_SNIP;Numérico;Codigo del proyecto en el Sistema Nacional de Inversión Pública (SNIP)
+NOMBRE_INVERSION;Carácter;Nombre de la inversión
+NOMBRE_OPMI;Carácter;Nombre de la  Oficina de Programación Multianual de Inversiones (OPMI)
+NOMBRE_UF;Carácter;Nombre de la Unidad Formuladora (UF)
+NOMBRE_UEI;Carácter;Nombre de la Unidad Ejecutora de las Inversiones (UEI)
+SEC_EJEC;Carácter;CÓdigo de ejecutora presupuestal, que identifica a una Unidad Ejecutora Presupuestal
+NOMBRE_UEP;Carácter;Nombre de la Unidad Ejecutora Presupuestal (UEP)
+ESTADO;Carácter;Estado de la Inversión
+SITUACION;Carácter;Situación de la Inversión
+MONTO_VIABLE;Numérico;Monto viable de la inversión
+COSTO_ACTUALIZADO;Numérico;Costo actualizado de la inversión
+CTRL_CONCURR;Numérico;Monto de control concurrente
+MONTO_LAUDO;Numérico;Costo de controversias
+MONTO_FIANZA;Numérico;Monto de carta fianza
+ALTERNATIVA;Carácter;Descripción de la alternativa de solución seleccionada
+FECHA_REGISTRO;Fecha;Fecha de registro de la inversión
+FECHA_VIABILIDAD;Fecha;Fecha de viabilidad o aprobación
+FUNCION;Carácter;Descripción de la función
+PROGRAMA;Carácter;Descripción del programa o división funcional
+SUBPROGRAMA;Carácter;Descripción del subprograma o grupo funcional
+MARCO;Carácter;Marco normativo vigente durante el registro de la inversión
+TIPO_INVERSION;Carácter;Descripción del tipo de inversión
+DES_MODALIDAD;Carácter;Descripción de la modalidad de ejecución
+REGISTRADO_PMI;Carácter;Indica si tiene registro en la cartera de inversiones de la Programación Multianual de Inversiones (PMI)
+PMI_ANIO_1;Numérico;Monto programado para el año actual de la cartera PMI
+PMI_ANIO_2;Numérico;Monto programado para el segundo año de la cartera PMI
+PMI_ANIO_3;Numérico;Monto programado para el tercer año de la cartera PMI
+PMI_ANIO_4;Numérico;Monto programado para el cuarto año de la cartera PMI
+EXPEDIENTE_TECNICO;Carácter;Indica si tiene registro de expediente tecnico (ET)
+INFORME_CIERRE;Carácter;Indica si la inversión cerrada tiene registro de informe de cierre
+TIENE_F9;Carácter;Indica si tiene registro de formato de cierre (F9)
+FEC_REG_F9;Fecha;Fecha de Registro del F9
+ETAPA_F9;Carácter;Descripción de la etapa vigente en el formato de Cierre (F9)
+PRIMER_DEVENGADO;Carácter;Periodo del primer devengado realizado en el Sistema Integrado de Administración Financiera (SIAF)
+ULTIMO_DEVENGADO;Carácter;Periodo del último devengado realizado en el SIAF
+DEVEN_ACUMUL_ANIO_ANT;Numérico;Monto devengado acumulado hasta el año anterior
+DEV_ANIO_ACTUAL;Numérico;Monto devengado en el año actual
+PIA_ANIO_ACTUAL;Numérico;Monto asignado en el Presupuesto Institucional de Apertura (PIA) del año actual
+PIM_ANIO_ACTUAL;Numérico;Monto asignado en el Presupuesto Institucional Modificado (PIM) del año actual
+CERTIF_ANIO_ACTUAL;Numérico;Monto certificado en el SIAF para el año actual
+COMPROM_ANUAL_ANIO_ACTUAL;Numérico;Monto de compromiso anual en el SIAF para el año actual
+SALDO_EJECUTAR;Numérico;Monto de saldo pendiente de ejecutar para el siguiente año
+TIENE_F8;Carácter;Indica si tiene registro de formato de ejecución (F8)
+ETAPA_F8;Carácter;Descripción de la etapa vigente en la fase de ejecución (F8)
+TIENE_F12B;Carácter;Indica si tiene registro de formato de seguimiento de ejecución (F12-B)
+TIENE_AVAN_FISICO;Carácter;Indica si tiene registro de avance físico de la inversión
+AVANCE_FISICO;Numérico;Porcentaje de avance físico de la inversión
+AVANCE_EJECUCION;Numérico;Porcentaje de avance de ejecución general de la inversión
+ULT_FEC_DECLA_ESTIM;Fecha;Fecha de la ultima declaración de avance físico de la inversion
+DES_TIPOLOGIA;Carácter;Descripción de la tipología de la inversión
+IND_IOARR_EMERG;Carácter;Tiene IOARR de Emergencia
+DEPARTAMENTO;Carácter;Departamento de localización de la inversión
+PROVINCIA;Carácter;Provincia de localización de la inversión
+DISTRITO;Carácter;Distrito de localización de la inversión
+UBIGEO;Carácter;Ubigeo de la localización
+LATITUD;Numérico;Coordenada de latitud de la localización
+LONGITUD;Numérico;Coordenada de longitud de la localización
+FEC_INI_EJECUCION;Fecha;Fecha de inicio de ejcución registrada en el Formato 08
+FEC_FIN_EJECUCION;Fecha;Fecha de termino de ejcución registrada en el Formato 08
+FEC_INI_EJEC_FISICA;Fecha;Fecha de inicio de ejcución física registrada en el Formato 12-B
+FEC_FIN_EJEC_FISICA;Fecha;Fecha de termino de ejcución física registrada en el Formato 12-B
+NUM_HABITANTES_BENEF;Numérico;Beneficarios de la ejecución de la inversión
+MONTO_ET_F8;Numérico;Monto registrado en la etapa de elaboración de ET del Formato 08
+ANIO_PROCESO;Numérico;Año de procesamiento de la información
